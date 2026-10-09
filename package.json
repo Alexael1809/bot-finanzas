@@ -1,0 +1,17 @@
+{
+  "name": "bot-finanzas",
+  "version": "1.0.0",
+  "description": "Bot financiero personal Telegram + Gemini + Supabase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.48.1",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^2.1.0"
+  }
+}
